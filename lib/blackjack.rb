@@ -55,7 +55,7 @@ end
 
 
 def runner
-  return welcome 
+  welcome 
  
 end
 
