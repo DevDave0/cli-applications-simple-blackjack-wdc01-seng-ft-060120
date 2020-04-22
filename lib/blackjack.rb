@@ -64,6 +64,3 @@ end
 end_game(total)
  
 end
-
-binding.pry
-    
