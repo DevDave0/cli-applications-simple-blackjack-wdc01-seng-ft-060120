@@ -32,7 +32,6 @@ def initial_round
   display_card_total(total)
 end
 
-binding.pry
 
 def hit?
   # code hit? here
