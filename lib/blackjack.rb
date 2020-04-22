@@ -8,7 +8,7 @@ def deal_card
   rand(1..11)
 end
 
-binding.pry
+
 
 def display_card_total(total)
   puts "Your cards add up to #{total}"
@@ -27,11 +27,7 @@ def end_game(card_total)
 end
 
 def initial_round
-  total = 0
-  first = deal_card
-  second = deal_card
-  total = first + second
-  display_card_total(total)
+  deal_card + deal_card
 end
 
 
