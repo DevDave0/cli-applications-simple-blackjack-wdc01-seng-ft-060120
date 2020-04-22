@@ -37,7 +37,7 @@ end
 
 
 
-def hit?
+def hit?(number)
   prompt_user
   get_user_input
 end
