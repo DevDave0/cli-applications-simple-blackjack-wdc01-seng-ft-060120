@@ -45,10 +45,9 @@ def hit?(total)
   elsif input == "s"
   total 
   get_user_input
-else 
+  else 
   invalid_command
-end 
-  
+  end 
 end
 
 def invalid_command
