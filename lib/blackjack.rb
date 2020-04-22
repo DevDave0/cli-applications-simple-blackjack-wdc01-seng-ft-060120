@@ -8,6 +8,8 @@ def deal_card
   rand(1..11)
 end
 
+binding.pry
+
 def display_card_total(total)
   puts "Your cards add up to #{total}"
 end
